@@ -1,1 +1,2 @@
 # Etch-a-Sketch
+This is a project from "The Odin Project". This is a webpage that will perform similar to a sketchpad or an Etch-A-Sketch. This project demonstrates the DOM manipulation skills that I have learned and practiced so far.
