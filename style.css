@@ -1,0 +1,33 @@
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin: 30px auto;
+    width: 512px;
+    height: 512px;
+}
+
+.box {
+    width: 32px;
+    height: 32px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px;
+    font-size: larger;
+}
