@@ -1,7 +1,6 @@
-/* body {
-    display: flex;
-    flex-direction: column;
-} */
+body {
+    background-color: lightblue;
+}
 
 #container {
     display: flex;
@@ -18,16 +17,34 @@
     height: 32px;
     border: 1px solid grey;
     box-sizing: border-box;
+    background-color: white;
 }
 
 #buttonContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px;
 }
 
 button {
     padding: 10px;
     font-size: larger;
+    margin: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#rainbow {
+    color: white;
+    background-image: linear-gradient(to right, red, blue);
+}
+
+#shading {
+    color: grey;
+    background-image: linear-gradient(to right, white, black);
+}
+
+button:hover {
+    padding: 15px;
 }
